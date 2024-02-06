@@ -10,8 +10,8 @@ const data = [
         id: 1,
         image: SKY_img,
         title: 'Weathering with u',
-        github: 'https://github.com/Hyun198',
-        demo: '#',
+        github: 'https://github.com/Hyun198/Weathring-u',
+        demo: 'https://weatheringu.netlify.app',
     },
     {
         id: 2,
@@ -63,6 +63,7 @@ function Portfolio() {
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn btn-primary' target='__blank'>GitHub</a>
+                                    <a href={demo} className='btn btn-primary' target='__blank'>Demo</a>
                                 </div>
                             </article>
                         )
