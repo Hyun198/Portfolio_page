@@ -24,8 +24,8 @@ const data = [
         id: 3,
         image: Work_img,
         title: 'PartTime ',
-        github: 'https://github.com/Hyun198',
-        demo: '#',
+        github: 'https://github.com/Hyun198/portfolio_partTime',
+        demo: 'https://cgvparttime.netlify.app',
     },
     {
         id: 4,
