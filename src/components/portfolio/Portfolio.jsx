@@ -34,13 +34,7 @@ const data = [
         github: 'https://github.com/Hyun198',
         demo: '#',
     },
-    {
-        id: 5,
-        image: SKY_img,
-        title: 'Youtube clone',
-        github: 'https://github.com/Hyun198',
-        demo: '#',
-    },
+
 ]
 
 
