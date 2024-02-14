@@ -1,5 +1,5 @@
 import React from 'react'
-import { Fade, Slide } from "react-reveal"
+import { motion } from 'framer-motion';
 
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
@@ -15,21 +15,39 @@ function App() {
 
       <Header />
       <Nav />
-      <Slide left duration={1500}>
+      <motion.div
+        initial={{ opacity: 0, x: -100 }} // 초기 상태 설정
+        animate={{ opacity: 1, x: 0 }} // 애니메이션 적용
+        transition={{ duration: 2 }} // 애니메이션 지속 시간 설정
+      >
         <About />
-      </Slide>
+      </motion.div>
 
-      <Fade duration={1500}>
+      <motion.div
+        initial={{ opacity: 0 }} // 초기 상태 설정
+        animate={{ opacity: 1 }} // 애니메이션 적용
+        transition={{ duration: 2, delay: 2 }} // 애니메이션 지속 시간 및 딜레이 설정
+      >
         <Experience />
-      </Fade>
+      </motion.div>
 
-
-      <Fade bottom duration={1500}>
+      <motion.div
+        initial={{ opacity: 0, y: 50 }} // 초기 상태 설정
+        animate={{ opacity: 1, y: 0 }} // 애니메이션 적용
+        transition={{ duration: 2.5, delay: 3 }} // 애니메이션 지속 시간 및 딜레이 설정
+      >
         <Portfolio />
-      </Fade>
-      <Slide bottom duration={2500}>
+      </motion.div>
+
+      <motion.div
+        initial={{ opacity: 0, y: 100 }} // 초기 상태 설정
+        animate={{ opacity: 1, y: 0 }} // 애니메이션 적용
+        transition={{ duration: 3, delay: 5.5 }} // 애니메이션 지속 시간 및 딜레이 설정
+      >
         <Contact />
-      </Slide>
+      </motion.div>
+
+
 
       <Footer />
     </>
