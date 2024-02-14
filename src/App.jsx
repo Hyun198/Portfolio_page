@@ -1,5 +1,5 @@
 import React from 'react'
-import Fade from "react-reveal/Fade"
+import { Fade, Slide } from "react-reveal"
 
 import Header from './components/header/Header'
 import Nav from './components/nav/Nav'
@@ -12,12 +12,25 @@ import Footer from './components/footer/Footer'
 function App() {
   return (
     <>
+
       <Header />
       <Nav />
-      <About />
-      <Experience />
-      <Portfolio />
-      <Contact />
+      <Slide left duration={1500}>
+        <About />
+      </Slide>
+
+      <Fade duration={1500}>
+        <Experience />
+      </Fade>
+
+
+      <Fade bottom duration={1500}>
+        <Portfolio />
+      </Fade>
+      <Slide bottom duration={2500}>
+        <Contact />
+      </Slide>
+
       <Footer />
     </>
   )

@@ -1,5 +1,6 @@
 import React from 'react'
 import './Header.css'
+import { Fade } from 'react-reveal'
 import CTA from './CTA'
 import Me from '../../assets/Me.jpg'
 import HeaderSocials from './HeaderSocials'
@@ -14,9 +15,11 @@ function Header() {
                 <CTA />
                 <HeaderSocials />
 
-                <div className="me">
-                    <img src={Me} alt="" />
-                </div>
+                <Fade duration={1000}>
+                    <div className="me">
+                        <img src={Me} alt="" />
+                    </div>
+                </Fade>
 
                 <a href="#contact" className='scroll__down'>Scroll down</a>
             </div>

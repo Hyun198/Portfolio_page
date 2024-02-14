@@ -2,6 +2,7 @@
     display: grid;
     grid-template-rows: 1fr;
     gap: 1.2rem;
+    text-align: center;
 }
 
 .contact__options {

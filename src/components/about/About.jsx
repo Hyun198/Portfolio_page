@@ -38,10 +38,10 @@ const About = () => {
                         </article>
 
                     </div>
-                    <p> 제가 생각하는 <span>개발자</span>란</p>
+                    <p> <span>개발자</span></p>
                     <p> client의 경험을 개선하기 위해 요구를 이해하고 최적화된 솔루션을 개발하는 사람</p>
                     <p>
-                        새로운 기술에 두려움없이 빠르게 적응할 수 있는 <span>개발자</span>
+                        끊임 없는 <span>Level Up</span>
                     </p>
                     <a href="#contact" className='btn btn-primary'>Let's Meet</a>
                 </div>
