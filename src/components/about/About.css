@@ -73,7 +73,8 @@
     color: #fff;
 }
 
-.about__content a {}
+
+
 
 
 
@@ -90,6 +91,11 @@
 
     .about__content p {
         margin: 1rem 1 1.5rem;
+    }
+
+    .about__content__btn {
+        display: flex;
+        justify-content: center;
     }
 }
 
@@ -111,4 +117,6 @@
     .about__content p {
         margin: 1.5rem 1rem;
     }
+
+
 }

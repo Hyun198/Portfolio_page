@@ -43,7 +43,10 @@ const About = () => {
                     <p>
                         끊임 없는 <span>Level Up</span>
                     </p>
-                    <a href="#contact" className='btn btn-primary'>Let's Meet</a>
+                    <div className='about__content__btn'>
+                        <a href="#contact" className='btn btn-primary'>Let's Meet</a>
+                    </div>
+
                 </div>
 
             </div>
