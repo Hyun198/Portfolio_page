@@ -15,20 +15,13 @@ const data = [
     },
     {
         id: 2,
-        image: Music_img,
-        title: 'Music',
-        github: 'https://github.com/Hyun198',
-        demo: '#',
-    },
-    {
-        id: 3,
         image: Work_img,
         title: 'PartTime ',
         github: 'https://github.com/Hyun198/portfolio_partTime',
         demo: 'https://cgvparttime.netlify.app',
     },
     {
-        id: 4,
+        id: 3,
         image: Shop_img,
         title: 'Shopping_mall',
         github: 'https://github.com/Hyun198',
