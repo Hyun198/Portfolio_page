@@ -4,7 +4,7 @@ import SKY_img from '../../assets/sky.jpg'
 import Music_img from '../../assets/music.png'
 import Shop_img from '../../assets/shopping.jpg'
 import Work_img from '../../assets/work.jpg'
-
+import ticket_img from '../../assets/ticket.jpg'
 const data = [
     {
         id: 1,
@@ -24,8 +24,15 @@ const data = [
         id: 3,
         image: Shop_img,
         title: 'Shopping_mall',
-        github: 'https://github.com/Hyun198',
+        github: '#',
         demo: '#',
+    },
+    {
+        id: 4,
+        image: ticket_img,
+        title: 'Shopping_mall',
+        github: 'https://github.com/Hyun198/TDMB',
+        demo: 'https://moviemaru.netlify.app',
     },
 
 ]
