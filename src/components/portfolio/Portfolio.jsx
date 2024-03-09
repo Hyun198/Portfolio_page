@@ -30,7 +30,7 @@ const data = [
     {
         id: 4,
         image: ticket_img,
-        title: 'Shopping_mall',
+        title: 'MovieMaru',
         github: 'https://github.com/Hyun198/TDMB',
         demo: 'https://moviemaru.netlify.app',
     },
