@@ -1,7 +1,6 @@
 import React from 'react'
 import './Portfolio.css'
 import SKY_img from '../../assets/sky.jpg'
-import Music_img from '../../assets/music.png'
 import Shop_img from '../../assets/shopping.jpg'
 import Work_img from '../../assets/work.jpg'
 import ticket_img from '../../assets/ticket.jpg'
