@@ -1,9 +1,11 @@
 import React from 'react'
 import './Portfolio.css'
 import SKY_img from '../../assets/sky.jpg'
-import Shop_img from '../../assets/shopping.jpg'
 import Work_img from '../../assets/work.jpg'
 import ticket_img from '../../assets/ticket.jpg'
+import graduation from '../../assets/graduation.png'
+import CV from '../../assets/cv.pptx'
+
 const data = [
     {
         id: 1,
@@ -28,8 +30,21 @@ const data = [
         demo: 'https://moviemaru.netlify.app',
     },
 
-]
+    {
+        id: 4,
+        image: graduation,
+        title: 'Graduation Project',
+        github: 'https://github.com/Hyun198/flask_pothole_detection_keras',
+        demo: CV,
+    }
 
+]
+function downloadPPTX() {
+    const link = document.createElement('a');
+    link.href = CV;
+    link.download = 'cv.pptx';
+    link.click();
+}
 
 
 function Portfolio() {
@@ -50,7 +65,11 @@ function Portfolio() {
                                 <h3>{title}</h3>
                                 <div className="portfolio__item-cta">
                                     <a href={github} className='btn btn-primary' target='__blank'>GitHub</a>
-                                    <a href={demo} className='btn btn-primary' target='__blank'>Demo</a>
+                                    {id === 4 ? (
+                                        <a href={demo} className='btn btn-primary' onClick={downloadPPTX}>Download</a>
+                                    ) : (
+                                        <a href={demo} className='btn btn-primary' target='__blank'>Demo</a>
+                                    )}
                                 </div>
                             </article>
                         )
