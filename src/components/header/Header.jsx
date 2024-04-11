@@ -8,8 +8,8 @@ function Header() {
     return (
         <header>
             <div className="container header__container">
-                <h5>안녕하세요.</h5>
-                <h1>원동현 입니다.</h1>
+                <h1>친근하고 기대 받고 싶은</h1>
+                <h3> 신입 원동현 입니다.</h3>
                 <h5 className='text-light'>FrontEnd Developer</h5>
                 <CTA />
                 <HeaderSocials />

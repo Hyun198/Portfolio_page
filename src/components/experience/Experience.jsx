@@ -14,32 +14,32 @@ function Experience() {
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>HTML</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>HTML</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>CSS</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>CSS</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>Java script</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>Java script</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>React</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>React</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
@@ -51,32 +51,32 @@ function Experience() {
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>Nodejs</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>Nodejs</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>MongoDB</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>MongoDB</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>Flask</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>Flask</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>
                         <article className='experience__details'>
                             <BsPatchCheckFill className="experience__details-icon" />
                             <div>
-                                <h4>MySQL</h4>
-                                <small className='text-light'>Experienced</small>
+                                <h3>MySQL</h3>
+                                {/* <small className='text-light'>Experienced</small> */}
                             </div>
 
                         </article>

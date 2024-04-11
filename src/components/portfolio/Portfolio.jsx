@@ -19,15 +19,9 @@ const data = [
         github: 'https://github.com/Hyun198/portfolio_partTime',
         demo: 'https://cgvparttime.netlify.app',
     },
+
     {
         id: 3,
-        image: Shop_img,
-        title: 'Shopping_mall',
-        github: '#',
-        demo: '#',
-    },
-    {
-        id: 4,
         image: ticket_img,
         title: 'MovieMaru',
         github: 'https://github.com/Hyun198/TDMB',

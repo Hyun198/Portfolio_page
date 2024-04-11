@@ -18,34 +18,36 @@ const About = () => {
 
                 <div className="about__content">
                     <div className="about__cards">
-                        <article className='about__card'>
+                        {/* <article className='about__card'>
                             <FaAward className='about__icon' />
                             <h5>Experience</h5>
-                            <small>4 Years Computer Science major</small>
-                        </article>
+                            <p>컴퓨터</p><p>정보통신공학</p>
+                        </article> */}
 
                         <article className='about__card'>
                             <FaAward className='about__icon' />
-                            <h5>Award</h5>
-                            <small>Graduation project no.3 winner</small>
+                            <h5>학술제</h5>
+                            <p>최우수상
+                            </p>
+                            <strong>이미지 트래킹 AI를 통한 포트홀 탐지</strong>
                         </article>
 
 
                         <article className='about__card'>
                             <GrCertificate className='about__icon' />
                             <h5>Certificate</h5>
-                            <small>정보처리기사 </small>
+                            <p>정보처리기사 </p>
                         </article>
 
                     </div>
                     <p> <span>개발자</span></p>
-                    <p> client의 경험을 개선하기 위해 요구를 이해하고 최적화된 솔루션을 개발하는 사람</p>
+                    <p> 일상에서 불편함을 찾아내어 기술을 통해 해결하려 노력하는 사람</p>
                     <p>
-                        끊임 없는 <span>Level Up</span>
+                        다양한 <span>라이브러리</span> 및 <span>API</span>사용
                     </p>
-                    <div className='about__content__btn'>
-                        <a href="#contact" className='btn btn-primary'>Let's Meet</a>
-                    </div>
+                    <p>
+                        기대하지 않는 신입보다는 <span>기대할 수 있는 신입 개발자</span>가 되려 합니다.
+                    </p>
 
                 </div>
 

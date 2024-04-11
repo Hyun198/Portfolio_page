@@ -31,10 +31,17 @@
     row-gap: 2rem;
 }
 
+
+
 .experience__details {
     display: flex;
     gap: 1rem;
 }
+
+.experience__details div>h3 {
+    color: var(--color-white)
+}
+
 
 .experience__details-icon {
     margin-top: 6px;
